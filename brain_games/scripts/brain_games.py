@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
+from brain_games import cli
+
 def main():
-	print('''poetry run python -m brain_games.scripts.brain_games
-Welcome to the Brain Games!''')
+	cli.welcome_user()
+ 
 if __name__ == '__main__':
 	main()
 
