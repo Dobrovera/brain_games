@@ -1,11 +1,15 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 
-from game_modules import hello
+"""Brain-calc Game"""
+
+
+from brain_games.game_modules import game_str
+from brain_games.game_modules import calc
 
 
 def main():
-    hello()
+    game_str.start(calc)
 
 
 if __name__ == '__main__':

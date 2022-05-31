@@ -7,3 +7,6 @@
 
 ### Game brain-even
 [![asciicast](https://asciinema.org/a/q4VkvTWl1LSlhFcVr9x3AUUb9.svg)](https://asciinema.org/a/q4VkvTWl1LSlhFcVr9x3AUUb9)
+
+### Game brain-calc
+[![asciicast](https://asciinema.org/a/92ut4LJzlXm5vNEXsciAuxqAi.svg)](https://asciinema.org/a/92ut4LJzlXm5vNEXsciAuxqAi)
