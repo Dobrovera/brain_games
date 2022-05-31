@@ -5,4 +5,5 @@
 
 [![make_lint](https://github.com/Dobrovera/python-project-lvl1/actions/workflows/make_lint.yml/badge.svg)](https://github.com/Dobrovera/python-project-lvl1/actions/workflows/make_lint.yml)
 
+### Game brain-even
 [![asciicast](https://asciinema.org/a/q4VkvTWl1LSlhFcVr9x3AUUb9.svg)](https://asciinema.org/a/q4VkvTWl1LSlhFcVr9x3AUUb9)
