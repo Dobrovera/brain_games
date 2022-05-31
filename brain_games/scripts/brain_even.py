@@ -16,18 +16,20 @@ def main():
     rand_num_end = 100
     i = 0
     while i < 3:
-        random_num = random.randint(rand_num_start,rand_num_end)
+        random_num = random.randint(rand_num_start, rand_num_end)
         print("Question: " + str(random_num))
         answer = prompt.string("Your answer: ")
-        if (random_num % 2 == 0 and answer == 'yes') or (random_num % 2 != 0 and answer == 'no'):
+        even_correct = random_num % 2 == 0 and answer == 'yes'
+        odd_correct = random_num % 2 != 0 and answer == 'no'
+        if even_correct or odd_correct:
             i += 1
             print("Correct!")
         elif random_num % 2 == 0 and answer != 'yes':
-            print("'" + answer + "'" + " is wrong answer ;(. Correct answer was 'yes'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
             print("Let's try again, " + name + "!")
             break
         elif random_num % 2 != 0 and answer != 'no':
-            print("'" + answer + "'" + " is wrong answer ;(. Correct answer was 'no'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
             print("Let's try again, " + name + "!")
             break
     if i == 3:
