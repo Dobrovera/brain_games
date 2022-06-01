@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-projects"
-version = "0.1.6"
+version = "0.2.1"
 description = ""
 authors = ["Vera Dobrodeeva <dobro.vera@gmail.com>"]
 packages = [
@@ -12,9 +12,10 @@ python = "^3.8"
 prompt = "^0.4.1"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+brain-games = "brain_games.scripts.brain_game:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
