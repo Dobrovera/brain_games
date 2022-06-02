@@ -10,10 +10,10 @@ RULES = "What number is missing in the progression?"
 def round():
     num_start = 1
     num_random = 20
-    num_step = 10
+    num_step = 5
     progression_length = 10
     num_progression = random.randint(num_start, num_random)
-    num_progression_step = random.randint(num_start, num_random)
+    num_progression_step = random.randint(num_start, num_step)
     location_find_element = random.randint(num_start, progression_length - 1)
     progression = []
     for i in range(progression_length):
