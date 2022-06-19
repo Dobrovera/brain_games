@@ -7,16 +7,19 @@ NUM_END = 100
 
 
 def round():
-    question_number = random.randint(NUM_START, NUM_END)
-    answer = ''
-    counter = 0
-    for i in range(2, question_number // 2 + 1):
-        if (question_number % i == 0):
-            counter += 1
-    if (counter == 0):
-        answer = 'yes'
-    else:
-        answer = 'no'
-    correct_answer = answer
-    question = question_number
+    QUESTION_NUM = random.randint(NUM_START, NUM_END)
+    question = QUESTION_NUM
+    correct_answer = "yes" if is_prime(QUESTION_NUM) else "no"
     return str(correct_answer), question
+
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    else:
+        counter = 2
+        while counter <= num / 2:
+            if num % counter == 0:
+                return False
+            counter += 1
+        return True
