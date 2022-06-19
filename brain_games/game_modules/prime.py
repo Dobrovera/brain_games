@@ -1,16 +1,13 @@
-#!/usr/bin/env python3
-
-
 import random
 
 
 RULES = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
+NUM_START = 3
+NUM_END = 100
 
 
 def round():
-    num_start = 3
-    num_end = 100
-    question_number = random.randint(num_start, num_end)
+    question_number = random.randint(NUM_START, NUM_END)
     answer = ''
     counter = 0
     for i in range(2, question_number // 2 + 1):
