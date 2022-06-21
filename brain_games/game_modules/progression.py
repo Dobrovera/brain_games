@@ -11,10 +11,10 @@ PROGRESSION_LENGTH = 10
 def round():
     num_progression = random.randint(NUM_START, NUM_RANDOM)
     num_progression_step = random.randint(NUM_START, NUM_STEP)
-    random_progression_lenght = random.randint(NUM_STEP, PROGRESSION_LENGTH)
-    location_find_element = random.randint(NUM_START, random_progression_lenght - 1)
+    random_lenght = random.randint(NUM_STEP, PROGRESSION_LENGTH)
+    location_find_element = random.randint(NUM_START, random_lenght - 1)
     progression = []
-    for i in range(random_progression_lenght):
+    for i in range(random_lenght):
         progression.append(num_progression)
         num_progression += num_progression_step
     correct_answer = progression[location_find_element]
