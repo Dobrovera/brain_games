@@ -7,11 +7,11 @@
 
 **This pack contains 5 mini games :dizzy: :sparkles:**
 
-+*brain-even*
-+*brain-calc*
-+*brain-gcd*
-+*brain-progression*
-+*brain-prime*
++ *brain-even*
++ *brain-calc*
++ *brain-gcd*
++ *brain-progression*
++ *brain-prime*
 
 
 
