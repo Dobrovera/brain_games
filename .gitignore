@@ -1,7 +1,8 @@
 .venv/
 __init__.cpython-38.pyc
 cli.cpython-38.pyc
-__pycache__
+/__pycache__
+*/__pycache__
 .python-version
 .github/workflows
 dist/
