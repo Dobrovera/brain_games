@@ -7,9 +7,8 @@ NUM_END = 100
 
 
 def round():
-    QUESTION_NUM = random.randint(NUM_START, NUM_END)
-    question = QUESTION_NUM
-    correct_answer = "yes" if is_prime(QUESTION_NUM) else "no"
+    question = random.randint(NUM_START, NUM_END)
+    correct_answer = "yes" if is_prime(question) else "no"
     return str(correct_answer), question
 
 

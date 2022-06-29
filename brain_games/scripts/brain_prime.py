@@ -4,12 +4,12 @@
 """Brain-prime Game"""
 
 
-from brain_games.game_modules import game_str
+from brain_games.game_modules import game_structure
 from brain_games.game_modules import prime
 
 
 def main():
-    game_str.start(prime)
+    game_structure.start(prime)
 
 
 if __name__ == '__main__':
