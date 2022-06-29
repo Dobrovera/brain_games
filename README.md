@@ -20,35 +20,35 @@
 + ***command brain-even***
 
 
-[![asciicast](https://asciinema.org/a/O4LKSfpqmPDu0hhdXx2HYzQX3.svg)](https://asciinema.org/a/O4LKSfpqmPDu0hhdXx2HYzQX3)
+[![asciicast](https://asciinema.org/a/b5KaCNZd7Ww0NgnndC4kc7KRi.svg)](https://asciinema.org/a/b5KaCNZd7Ww0NgnndC4kc7KRi)
 
 ### Game brain-calc
 + simple calculator
 + ***command brain-calc***
 
 
-[![asciicast](https://asciinema.org/a/XjF2zYguNzmW3xfxl04qxMej8.svg)](https://asciinema.org/a/XjF2zYguNzmW3xfxl04qxMej8)
+[![asciicast](https://asciinema.org/a/dTKIS8ePLewKRB3cWb8brcoH5.svg)](https://asciinema.org/a/dTKIS8ePLewKRB3cWb8brcoH5)
 
 ### Game brain-gcd
 + find the least common divisor of two numbers
 + ***command brain-gcd***
 
 
-[![asciicast](https://asciinema.org/a/sEenQ22x6UftIwbeZj1FrJDLj.svg)](https://asciinema.org/a/sEenQ22x6UftIwbeZj1FrJDLj)
+[![asciicast](https://asciinema.org/a/yEmMwTUNIy8bKqFGQDEtp9Hon.svg)](https://asciinema.org/a/yEmMwTUNIy8bKqFGQDEtp9Hon)
 
 ### Game brain-progression
 + search for missing number in arithmetic progression
 + ***command brain-progression***
 
 
-[![asciicast](https://asciinema.org/a/KWuw5R2adKOaobVLoevXfqrzU.svg)](https://asciinema.org/a/KWuw5R2adKOaobVLoevXfqrzU)
+[![asciicast](https://asciinema.org/a/DIhMcsG64hku2lven9i8sqP6Y.svg)](https://asciinema.org/a/DIhMcsG64hku2lven9i8sqP6Y)
 
 ### Game brain-prime
 + you must answer "yes" if the number is prime and "no" if the number is not prime
 + ***command brain-prime***
 
 
-[![asciicast](https://asciinema.org/a/yPkkO0QHGz12WEdtMugfFWxfu.svg)](https://asciinema.org/a/yPkkO0QHGz12WEdtMugfFWxfu)
+[![asciicast](https://asciinema.org/a/XS4wNKz9LkguEhkojufmcqove.svg)](https://asciinema.org/a/XS4wNKz9LkguEhkojufmcqove)
 
 ### Installation commands:
 
